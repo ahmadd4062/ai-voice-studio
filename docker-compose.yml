@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  voice-studio:
+    build: .
+    container_name: voice-studio
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./saved_voices:/app/saved_voices
+      - ./training_data:/app/training_data
+      - ./rvc_models:/app/rvc_models
+      - ./temp:/app/temp
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
