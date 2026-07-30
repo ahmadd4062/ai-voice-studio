@@ -5,18 +5,6 @@
 [![Docker](https://img.shields.io/badge/Docker-24.0.0-blue.svg)](https://docker.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Docker Deployment](#docker-deployment)
-- [Demo](#demo)
-- [Project Structure](#project-structure)
-- [License](#license)
-
 ---
 
 ## 📖 Overview
